@@ -4,7 +4,7 @@
 - [🔧 Ressuscite a sua batata com outro sistema operacional](#-ressuscite-a-sua-batata-com-outro-sistema-operacional)
 - [🎮 Ressuscite sua batata como Central de Jogos Retrô](#-ressuscite-sua-batata-como-central-de-jogos-retrô)
 - [🧪 Ressuscite sua batata como um Servidor](#-ressuscite-sua-batata-como-um-servidor)
-- [📱 Ressuscite Celulares Antigos como E-readers](#-ressuscite-celulares-antigos-como-e-readers)
+- [📱 BÔNUS: Ressuscite Celulares Antigos como E-readers](#-ressuscite-celulares-antigos-como-e-readers)
 - [♻️ E se nada disso funcionar?](#️-e-se-nada-disso-funcionar)
 - [❓ FAQ - Perguntas Frequentes](#-faq---perguntas-frequentes)
 - [👏 Agradecimentos](#-agradecimentos)
@@ -148,7 +148,7 @@ Instale o cliente Steam com `Proton` para rodar jogos do Windows.
 - **[Steam Link](https://store.steampowered.com/steamlink)** – Espelha seu PC gamer em outro dispositivo
 - **[Moonlight](https://moonlight-stream.org/)** – Baseado no NVIDIA GameStream, funciona até em Raspberry Pi
 
-Requer conexão boa e um servidor potente em outro lugar (ou na mesma rede).
+Requer conexão boa
 
 ### 🖨️ Impressoras e Periféricos Antigos
 
@@ -228,7 +228,7 @@ Ou siga o passo a passo básico:
 - Trocar HD mecânico por SSD (mesmo usado, faz diferença)
 - Aumentar a RAM para 4GB ou mais
 - Usar um **no-break ou filtro de linha** para proteger a máquina
-- Ter um **controle USB dedicado** melhora MUITO a experiência
+- Ter um **controle USB** melhora MUITO a experiência
 - Aproveitar **caixas de som antigas ou caixas Bluetooth**
 - Usar um **cooler externo ou base refrigerada** se for notebook antigo
 
@@ -238,28 +238,28 @@ Ou siga o passo a passo básico:
 
 ## 🧪 Ressuscite sua batata como um Servidor!
 
-Antes de desistir da sua máquina velha, que tal uma última missão?  
+Antes de desistir da sua máquina velha...
 Ela pode não abrir 10 abas no navegador... mas talvez possa virar um **servidor pessoal**!
 
 ### 📺 Tutorial em vídeo
 
 Para um passo a passo prático, confira este vídeo que ensina a transformar qualquer PC em um servidor:
 
-[![Transformei meu Notebook ANTIGO em um Servidor PROXMOX](https://img.youtube.com/vi/Dpj0RU6tvk4/0.jpg)](https://www.youtube.com/watch?v=Dpj0RU6tvk4)
+[Transformei meu Notebook ANTIGO em um Servidor PROXMOX](https://www.youtube.com/watch?v=Dpj0RU6tvk4)
 
 ### 🏗️ Passo a passo básico para montar seu servidor
 
 1. **Escolha uma distribuição leve e estável**:
    - `Debian Netinstall`: clássico, robusto, excelente para servidores.
    - `Alpine Linux`: absurdamente leve (~50MB), ideal para quem já tem alguma experiência.
-   - `Void Linux`: leve, rápido, sem systemd. Ótimo para batatas com alma hacker.
+   - `Void Linux`: leve, rápido, sem systemd.
    - `Devuan`: para quem quer algo estável como Debian mas sem systemd.
    - `Arch Linux`: não recomendado pra iniciantes, mas dá controle total se bem configurado.
    - `Ubuntu Server`: se você quer algo mais conhecido, mas cuidado com o peso.
 
 2. **Instale sem interface gráfica (headless)**:
    - Isso economiza muita RAM e CPU.
-   - Tudo será feito via terminal — simples e poderoso.
+   - Tudo será feito via terminal.
 
 3. **Configure rede e acesso remoto**:
    - Ative e teste o `ssh` para acessar via outro computador.
@@ -305,7 +305,6 @@ Até Docker pode rodar em batata com 2GB de RAM! Ou experimente:
 - `lxc` – estilo máquina virtual super leve.
 - `systemd-nspawn` – bom pra isolar ambientes em distros com systemd.
 
-Transformar sua batata em um servidor é uma forma de **aprender, experimentar e dar um propósito nobre ao que seria lixo eletrônico**.
 
 [↑ Voltar ao sumário](#-sumário)
 
@@ -313,7 +312,7 @@ Transformar sua batata em um servidor é uma forma de **aprender, experimentar e
 
 ## 📱 Ressuscite Celulares Antigos como E-readers
 
-Tem um Android velho esquecido na gaveta? Dá para transformá-lo em um **e-reader profissional** e dar nova vida a ele!
+Tem um Android velho esquecido na gaveta? Dá para transformá-lo em um **e-reader** e dar nova vida a ele!
 
 ### 🔍 Por que fazer isso?
 
@@ -353,6 +352,7 @@ Ou siga este guia rápido:
    * Desative todos os serviços Google desnecessários
    * Instale apenas o essencial: F-Droid (loja de apps open source)
    * Pelo F-Droid, instale o KOReader
+   * Ou baixe o `.apk` pela página oficial do github [KOReader](https://github.com/koreader/koreader/releases)
 
 3. **Configurações recomendadas**:
    * Ative o modo avião ou desative dados móveis e Wi-Fi quando não estiver baixando livros
@@ -389,7 +389,6 @@ Ou siga este guia rápido:
 * **Película fosca** ("matte") para reduzir reflexos e simular textura de e-ink
 * **Suporte de cama/mesa** para leitura sem segurar o aparelho
 
-Transformar um celular antigo em e-reader não só dá vida nova ao aparelho, como também cria uma solução dedicada à leitura, sem distrações de redes sociais e notificações constantes.
 
 [↑ Voltar ao sumário](#-sumário)
 
@@ -402,7 +401,6 @@ Se mesmo com todas as dicas, distros leves, tunagens e reusos criativos, **seu p
 Não descarte seu computador antigo ou peças eletrônicas no lixo comum. Isso polui o meio ambiente e pode conter metais pesados tóxicos.
 
 🛑 **Nem pense em jogar no lixo doméstico.**  
-⚠️ **É crime ambiental em muitas regiões!**
 
 ### ✅ Descarte corretamente
 
@@ -412,13 +410,6 @@ Acesse o site da **ABREE (Associação Brasileira de Reciclagem de Eletroeletrô
 
 No site, basta colocar o seu endereço e o sistema irá mostrar os pontos mais próximos para o **descarte consciente de eletrônicos.**
 
-### 🌱 Um ato de cuidado
-
-Descarte consciente:
-
-* Garante que metais pesados não contaminem o solo e a água
-* Permite a reciclagem de componentes úteis
-* Ajuda o meio ambiente e a economia circular
 
 > Mesmo que sua batata não reviva, ela ainda pode renascer em outras formas. 🌍💻
 
@@ -447,17 +438,13 @@ Descarte consciente:
 **"Consigo assistir YouTube em batata?"**  
 > Sim, com o `mpv` via terminal ou usando o `yt-dlp`. Navegadores tradicionais engasgam.
 
-**"Qual navegador usar em PC antigo?"**  
-> `Pale Moon`, `Firefox ESR` com tweaks, `qutebrowser` (leve, mas exige prática), ou vá de terminal com `w3m`/`lynx`.
 
 **"Tem como usar o WhatsApp?"**  
-> Sim, acesse [web.whatsapp.com](https://web.whatsapp.com), ou use `ferdium`, `webcord` leve, ou até pelo `browser` em modo leve.
+> Sim, acesse [Whatsapp Web](https://web.whatsapp.com).
 
-**"Consigo jogar em um PC velho?"**  
-> Jogos leves nativos como `SuperTux`, emuladores, e até streaming remoto com `Moonlight`, `Steam Link` ou `Nware`.
 
 **"Qual interface gráfica consome menos?"**  
-> `Openbox`, `i3`, `Fluxbox`, `XFCE` e `LXQt` são campeãs de leveza. Evite GNOME e KDE em PCs fracos.
+> `Openbox`, `i3`, `Fluxbox`, `XFCE` e `LXQt` são campeãs de leveza. Evite `GNOME` e `KDE` em PCs fracos.
 
 **"Como economizar memória RAM?"**  
 > Desative serviços desnecessários, use `zram`, evite navegador pesado, e rode tudo que puder no terminal.
@@ -465,8 +452,6 @@ Descarte consciente:
 **"Preciso mesmo usar o terminal?"**  
 > Não, mas ele economiza recursos e faz milagres. Você vai se acostumar. É só questão de prática.
 
-**"Posso instalar o Windows XP de volta?"**  
-> Não recomendo. Sem suporte, sem segurança, sem atualizações. Melhor usar uma distro Linux leve e atual.
 
 **"Tem como deixar com aparência moderna?"**  
 > Sim! Temas `gtk`, ícones bonitos, `picom` com transparência, papéis de parede estilosos. Dá pra deixar chique e leve.
@@ -486,6 +471,7 @@ Este guia foi inspirado e construído com base em conteúdos da comunidade de so
 
 - 🔗 **[pc-carroça](https://github.com/terremoth/pc-carroca)**  
   Repositório que serviu de base e inspiração para várias seções deste guia.
+
 &nbsp; 
 - 🎥 **[Diolinux](https://www.diolinux.com.br/)**  
   Canal/blog referência em Linux e open source no Brasil. Alguns tutoriais linkados aqui foram produzidos por eles.
